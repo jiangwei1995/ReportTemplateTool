@@ -1,0 +1,21 @@
+{
+  "name": "reporttemplatetool",
+  "homepage": "https://github.com/jiangwei1995/ReportTemplateTool",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.4.8",
+    "angular-touch": "~1.4.8",
+    "angular-ui-grid": "~3.0.7",
+    "angular": "~1.4.8"
+  }
+}
