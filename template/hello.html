@@ -1,1 +1,5 @@
 hello
+{{!col.grouping}}{{col.grouping.groupPriority}}{{col.grouping.groupPriority}}{{row.groupHeader}}{{col.grouping.groupPriority}}{{row.treeLevel}}
+1:{{!col.grouping }}  2:{{col.grouping.groupPriority}}3:{{col.grouping.groupPriority}}4:{{row.groupHeader}}5:{{col.grouping.groupPriority}}6:{{row.treeLevel}}
+
+cellTemplate: '<div><div ng-if="!col.grouping || col.grouping.groupPriority === undefined || col.grouping.groupPriority === null || ( row.groupHeader && col.grouping.groupPriority === row.treeLevel )" class="ui-grid-cell-contents" title="TOOLTIP">{{COL_FIELD CUSTOM_FILTERS}}</div></div>'
