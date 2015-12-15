@@ -6,5 +6,7 @@ bower install angular-ui-grid
 **angular** *angular.js*  
 **angular-ui-grid** *ui-grid.js、ui-grid.js*   
 3.应用引用第三方模块
+**代码**
+*angular.module('app', ['ui.grid'])*    
 
 
